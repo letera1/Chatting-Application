@@ -1,13 +1,43 @@
 {
-  "name": "chat-app",
+  "name": "fullstack-realtime-chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A modern, full-stack real-time chat application built with MERN stack, Socket.io, TailwindCSS, and DaisyUI",
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "npm run start --prefix backend"
+    "start": "npm run start --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "seed": "node backend/src/seeds/user.seed.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "chat",
+    "realtime",
+    "socket.io",
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "tailwindcss",
+    "daisyui",
+    "jwt",
+    "authentication",
+    "messaging",
+    "websocket"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/chat-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/chat-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/chat-app#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
 }
